@@ -1,8 +1,8 @@
 let button = document.getElementById("start");
 let text = document.getElementById("count");
 
-function textedit(){
-    text.innerHTML = "Tes";
+function textEdit() {
+    text.innerHTML = "Test";
 }
 
-button.onclick(textedit());
+button.addEventListener("click", textEdit)
