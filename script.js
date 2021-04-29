@@ -2,7 +2,8 @@ let button = document.getElementById("start");
 let text = document.getElementById("count");
 
 function textEdit() {
-    text.innerHTML = "Test";
+    let oneHundred = 0;
+    
 }
 
 button.addEventListener("click", textEdit)
